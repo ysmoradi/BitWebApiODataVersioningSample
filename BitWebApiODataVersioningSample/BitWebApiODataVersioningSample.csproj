@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bit.OData" Version="2.3.0" />
+    <PackageReference Include="Bit.OwinCore" Version="2.3.0" />
+    <PackageReference Include="Bit.OwinCore.AspNetCore22Upgrade" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiSrcV1\ApiSrcV1.csproj" />
+    <ProjectReference Include="..\ApiSrcV2\ApiSrcV2.csproj" />
+  </ItemGroup>
+
+</Project>
